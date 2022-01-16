@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contaner-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  margin-bottom: 4rem;
+}
+
+.cart-task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 0 2rem 0.4rem 2rem;
+}
+
+img {
+  width: 1.5rem;
+}
+
+.imgIcon {
+  display: flex;
+  flex-direction: row;
+}
+
+.div-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chebox {
+}
+
+.checked {
+  margin: 0;
+  background: cadetblue;
+  text-decoration: line-through;
+  border: 1px black solid;
+}
+
+.noChecked {
+  margin: 0;
+  background: cyan;
+  border: 1px black solid;
+}
+
+p {
+  display: flex;
+  word-wrap: break-word;
+}
+
+.isCheckedEditor {
+  display: none;
+}
+
+.noCheckedEditor {
+  /* display: none; */
+}
