@@ -9,6 +9,7 @@ let buttonDelTask = null;
 let inputValue = '';
 let tempIndex = -1;
 let tempValueTextarea = '';
+let temp = ''
 
 const updateInputValue = (event) => {
   inputValue = event.target.value;
